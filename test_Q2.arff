@@ -1,0 +1,17 @@
+
+@relation graduation_purches
+@attribute financebackground{"good","high","low"}
+@attribute studentstaying {"pg","home"}
+@attribute collegeprovidanylaptopschem {"yes","no"}
+@attribute graduationbackground {"it","other"}
+@attribute purches {"lap","mac","desk"}
+
+@data
+"low","home","yes","other",?
+"good","pg","yes","it",?
+"high","pg","no","other",?
+"low","pg","no","it",?
+
+
+
+

@@ -1,0 +1,49 @@
+
+@relation graduation_purches
+@attribute financebackground{"good","high","low"}
+@attribute studentstaying {"pg","home"}
+@attribute collegeprovidanylaptopschem {"yes","no"}
+@attribute graduationbackground {"it","other"}
+@attribute purches {"lap","mac","desk"}
+
+@data
+"high","home","no","other","mac"
+"good","home","yes","other","mac"
+"low","home","no","it","desk"
+"low","home","yes","it","lap"
+"good","pg","no","other","lap"
+"good","pg","no","it","lap"
+"high","pg","no","it","lap"
+"low","pg","yes","other","mac"
+"good","home","no","other","lap"
+"high","pg","no","other","desk"
+"high","pg","no","it","mac"
+
+@relation graduation_purches
+@attribute financebackground{"good","high","low"}
+@attribute studentstaying {"pg","home"}
+@attribute collegeprovidanylaptopschem {"yes","no"}
+@attribute graduationbackground {"it","other"}
+@attribute purches {"lap","mac","desk"}
+
+@data
+"high","home","no","other","mac"
+"good","home","yes","other","mac"
+"low","home","no","it","desk"
+"low","home","yes","it","lap"
+"good","pg","no","other","lap"
+"good","pg","no","it","lap"
+"high","pg","no","it","lap"
+"low","pg","yes","other","mac"
+"good","home","no","other","lap"
+"high","pg","no","other","desk"
+"high","pg","no","it","mac"
+"high","home","no","it","mac"
+"low","pg","no","it","mac"
+"high","pg","yes","other","desk"
+"high","home","no","it","mac"
+"high","pg","no","it","lap"
+
+
+
+

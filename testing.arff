@@ -1,0 +1,10 @@
+@relation graduates
+@attribute is_student{"y","n"}
+@attribute salary{"<300000","300000...500000",">500000"}
+@attribute income{"high","medium","low"}
+@attribute credit_rating{"excellent","good"}
+@attribute payment{"full","emi"}
+@attribute buys_system{"laptop","MacBook","Desktop"}
+@data
+"y",">500000","high","excellent","full",?
+"n","<300000","medium","excellent","full",?
