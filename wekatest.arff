@@ -1,0 +1,16 @@
+@relation buy_computers
+@attribute age {"a","b","c"} 
+@attribute  income {"high","low","medium"}
+@attribute  student {"yes","no"}
+@attribute  credit_rating {"fair","excellent"}
+@attribute  buys_computer {"yes","no"}
+
+@data  
+"a","high","no","fair",?
+"a","high","no","excellent",?
+"b","high","no","fair",?
+"c","medium","no","fair",?
+"c","low","yes","fair",?
+
+
+
